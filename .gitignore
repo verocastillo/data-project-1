@@ -1,5 +1,5 @@
 # OS Data Files
-*.DS_Store*
+*DS_Store*
 *config*
 
 # Byte-compiled / optimized / DLL files
