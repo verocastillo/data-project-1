@@ -1,3 +1,7 @@
+# OS Data Files
+*.DS_Store*
+*config*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
