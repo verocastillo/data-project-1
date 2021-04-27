@@ -1,2 +1,0 @@
-ckey = '09b39dff5bee4804a993acd2e3ec07b9'
-skey = 'c53065d06d8d4f729b55601095ff0391'
