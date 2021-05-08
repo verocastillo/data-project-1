@@ -10,9 +10,11 @@ Explore how COVID-19 affected music streaming user preferences:
 - Does this vary by the country?
 
 BUSINESS IMPACT
+
 Spotify can use this data to improve their algorithms and offer more personalized suggestions to users in different regions, that could potentially provide a better experience to the user.
 
 DATA 
+
 Spotify API for the tracks and music metrics was use and for COVID-19 information the official datasets from Our World data.
 
 The questions to answer with this Data Analysis are:
@@ -33,6 +35,7 @@ import spotipy
        
                                                 
 DATA EXPLORATION
+
 1. Convert input CSVs into DataFrame
     COVID data in csv files from https://ourworldindata.org [5] and Spotify Top Charts at 
     spotifycharts.com. They were read and transformed into DataFrames using Pandas. 
@@ -53,6 +56,7 @@ DATA EXPLORATION
 
 
 DATA TRANSFORMATION
+
 From Spotify we obtained CSV files for the weekly top 200 charts for each country and the global one. From Our World in Data COVID statistics divided by date and country were used. Also, the Spotify API was used to obtain track information and audio features for each track. 
 
 From this data, key metric to study was Valence, defined from sounded studies as a measure which indicates whether  people associate happy or sad sounds. This is important because it is how Spotify describes the musical positiveness conveyed by a track. The number of COVID cases and deaths were also analysed in order to compare  how valence behaved over time.
@@ -60,12 +64,15 @@ From this data, key metric to study was Valence, defined from sounded studies as
 Import CSV files obtained from the data sources, and turned them into Pandas DataFrames. From the DataFrame with the Spotify data the Spotify API was used to obtain the track ID associated with each song, and then the audio features of the song, which included song valence. 
 
 CLEAN-UP DATA
+
 Dropped songs that are not in certain countries, songs that are no longer in Spotify and songs with missing values. 
 
 PANDAS ANALYSIS
+
 Relevant mean values and weighted averages to simplify the data to be grouped by month and year were retrieved. Matplotlib helped to plot valence through time, comparing the monthly change in 2019 and 2020 also scatter plots and linear regression analysis to obtain the correlation between variables was used.
 
 RESULTS
+
 Valence preference varies between countries.
 Hispanic and Latin countries have higher mean valence.
 Mean valence between 2019 and 2020 was significantly different in some countries.
