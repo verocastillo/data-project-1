@@ -2,7 +2,7 @@
 
 <img width="958" alt="Spotify_COVID_analysis" src="https://user-images.githubusercontent.com/77795761/117550031-881e2700-b003-11eb-9ea8-483f5700d4bb.png">
 
-**REPOSITORI NAVIGATION**
+**REPOSITORY NAVIGATION**
 
 * *starter-codes* contains the initial test and base codes for our entire project.
 * *data-exploration* contains the individual data handling, CSV files, inputs and outputs.
