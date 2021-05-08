@@ -24,14 +24,23 @@ Spotify API for the tracks and music metrics was use and for COVID-19 informatio
 * DEPENDENCIES
 
 import matplotlib.pyplot as plt
+
 import pandas as pd
+
 import numpy as np
+
 import requests
+
 import json
+
 import re, glob
+
 import os, sys
+
 from scipy import stats
+
 import seaborn as sn
+
 import spotipy                          
        
                                                 
