@@ -1,7 +1,6 @@
 ## Spotify trends & COVID-19: Correlations between music listening trends and hardship levels from COVID
 
-Spotify_COVID_analysis.png
-
+<img width="958" alt="Spotify_COVID_analysis" src="https://user-images.githubusercontent.com/77795761/117550031-881e2700-b003-11eb-9ea8-483f5700d4bb.png">
 
 * OBJECTIVE
 
@@ -103,15 +102,11 @@ Germany and the US match the trend.
 México, Brazil, Italy and India show from a moderate to a strong negative correlation.
 
 
-* CONCLUTIONS
+* CONCLUSIONS
 
 Spotify can use the data obtained to offer more personalized suggestions to users depending on the country, and optimize exclusive contracts with certain artists that match the ‘mood’ of each country. 
 The majority of the countries analyzed presented a correlation.
 
 
 =======
-# COVID and Spotify Trends: Data-Project-1
-![gettyimages-1217390845](https://user-images.githubusercontent.com/77795761/117542257-817cb900-afdd-11eb-8e25-e5951a95e7f6.jpg)
 
-Testing, testing...
->>>>>>> 0a7e4daf1ad559302fffbf105079c7827ddc445a
