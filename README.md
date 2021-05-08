@@ -5,7 +5,7 @@ Spotify_COVID_analysis.png
 
 * OBJECTIVE
 
-Explore how COVID-19 affected music streaming user preferences:
+Explore how COVID-19 affected music streaming user preferences to answer:
 - Are they listening to happy music to cheer up?
 - Are we listening to sad music to cope?
 - Does this vary by the country?
@@ -19,10 +19,6 @@ Spotify can use this data to improve their algorithms and offer more personalize
 * DATA 
 
 Spotify API for the tracks and music metrics was use and for COVID-19 information the official datasets from Our World data.
-
-The questions to answer with this Data Analysis are:
-Did the pandemic affect how people globally and locally listen to music?
-Is there a correlation betweeen COVID-19 severity and music preferences by country?
 
 
 * DEPENDENCIES
