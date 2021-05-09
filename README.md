@@ -5,7 +5,7 @@
 **REPOSITORY NAVIGATION**
 
 * [*starter-codes*](https://github.com/verocastillo/data-project-1/tree/main/starter-codes) contains the initial base codes for our entire project, which tested Spotify's API and the plotting techniques.
-[*data-exploration*](https://github.com/verocastillo/data-project-1/tree/main/data-exploration) contains the individual data handling, CSV files, inputs and outputs. Each country or region explored has it's own subfolder.
+* [*data-exploration*](https://github.com/verocastillo/data-project-1/tree/main/data-exploration) contains the individual data handling, CSV files, inputs and outputs. Each country or region explored has it's own subfolder.
 * [*main-data-analysis*](https://github.com/verocastillo/data-project-1/tree/main/main-data-analysis) contains the integrated final codes that created the analysis plots, which pulled data from the exploration data on each country and region.
 * [*documents*](https://github.com/verocastillo/data-project-1/tree/main/documents) contains the [presentation](https://github.com/verocastillo/data-project-1/blob/main/documents/COVID%20and%20Spotify%20Trends_%20Presentation.pdf) and [written report](https://github.com/verocastillo/data-project-1/blob/main/documents/COVID%20and%20Spotify%20Trends_%20Written%20Report.pdf).
 
