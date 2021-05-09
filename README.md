@@ -53,7 +53,8 @@ Spotify can use this data to improve their algorithms and offer more personalize
 2. Obtain track features from API 
     Using the Spotify API and the track names from the Spotify DataFrame, we got track information 
     regarding Valence. This is a metric used by Spotify which characterize whether a song is relatively sad or happy.
-<img width="958" alt="Vance Comparison 2019-2020" src="https://github.com/verocastillo/data-project-1/blob/main/data-exploration/sample_spotify_api_code.png">
+       <img width="958" alt="Vance Comparison 2019-2020" src="https://github.com/verocastillo/data-project-1/blob/main/data-exploration/sample_spotify_api_code.png">
+       
 3. Delete faulty/repeated data
     Some tracks were not found, and some information was not available in certain countries. 
     These values in the DataFrame were dropped.
