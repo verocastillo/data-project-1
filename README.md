@@ -51,7 +51,7 @@ Spotify API for the tracks and music metrics was use and for COVID-19 informatio
 2. Obtain track features from API 
     Using the Spotify API and the track names from the Spotify DataFrame, we got track information 
     regarding Valence. This is a metric used by Spotify which characterize whether a song is sad or happy.
-
+<img width="958" alt="Vance Comparison 2019-2020" src="https://github.com/verocastillo/data-project-1/blob/main/data-exploration/sample_spotify_api_code.png">
 3. Delete faulty/repeated data
     Some tracks were not found, and some information was not available in certain countries. 
     These values in the DataFrame were dropped.
@@ -80,32 +80,29 @@ Dropped songs that are not in certain countries, songs that are no longer in Spo
 **PANDAS ANALYSIS**
 
 Relevant mean values and weighted averages to simplify the data to be grouped by month and year were retrieved. Matplotlib helped to plot valence through time, comparing the monthly change in 2019 and 2020 also scatter plots and linear regression analysis to obtain the correlation between variables was used.
-
+<img width="958" alt="Vance vs. New Cases per Million" src="https://github.com/verocastillo/data-project-1/blob/main/main-data-analysis/sample_plot_analysis_code.png">
 
 **RESULTS**
-<img width="958" alt="Vance Comparison 2019-2020" src="https://github.com/verocastillo/data-project-1/blob/main/main-data-analysis/output_files/Valence.png">
 
-Valence preference varies between countries.
+**Valence preference varies between countries.**
 Hispanic and Latin countries have higher mean valence.
 Mean valence between 2019 and 2020 was significantly different in some countries.
 México decreased in 2020.
 Spain increased in 2020.
 Globally, there was no significant change in mean valence.
+<img width="958" alt="Vance Comparison 2019-2020" src="https://github.com/verocastillo/data-project-1/blob/main/main-data-analysis/output_files/Valence.png">
 
-<img width="958" alt="Vance vs. New Cases per Million" src="https://github.com/verocastillo/data-project-1/blob/main/main-data-analysis/output_files/scatter_Valence_to_New%20Cases%20Per%20Million.png">
-
-Valence vs. Cases per Million
+**Valence vs. Cases per Million**
 Global tendency shows a strong positive correlation. 
 Germany and the US match the trend.
 México, Spain and India show from a moderate to a strong negative correlation.
+<img width="958" alt="Vance vs. New Cases per Million" src="https://github.com/verocastillo/data-project-1/blob/main/main-data-analysis/output_files/scatter_Valence_to_New%20Cases%20Per%20Million.png">
 
-<img width="958" alt="Vance vs. New Cases per Million" src="https://raw.githubusercontent.com/verocastillo/data-project-1/main/main-data-analysis/output_files/scatter_Valence_to_New%20Deaths%20Per%20Million.png">
-
-Valence vs. Deaths per Million
+**Valence vs. Deaths per Million**
 Global tendency shows a strong positive correlation. 
 Germany and the US match the trend.
 México, Brazil, Italy and India show from a moderate to a strong negative correlation.
-
+<img width="958" alt="Vance vs. New Cases per Million" src="https://raw.githubusercontent.com/verocastillo/data-project-1/main/main-data-analysis/output_files/scatter_Valence_to_New%20Deaths%20Per%20Million.png">
 
 **CONCLUSIONS**
 
