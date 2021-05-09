@@ -25,7 +25,9 @@ Spotify can use this data to improve their algorithms and offer more personalize
 
 **DATA** 
 
-Spotify API for the tracks and music metrics was use and for COVID-19 information the official datasets from Our World data.
+- [Spotifycharts.com](https://spotifycharts.com) for historical data on top 200 songs by country and region.
+- [Spotify API](https://developer.spotify.com/documentation/web-api/) for metrics on individual tracks.
+- [Our World data](https://ourworldindata.org/coronavirusCOVID-19) for Covid data.
 
 
 **DEPENDENCIES**
@@ -50,7 +52,7 @@ Spotify API for the tracks and music metrics was use and for COVID-19 informatio
 
 2. Obtain track features from API 
     Using the Spotify API and the track names from the Spotify DataFrame, we got track information 
-    regarding Valence. This is a metric used by Spotify which characterize whether a song is sad or happy.
+    regarding Valence. This is a metric used by Spotify which characterize whether a song is relatively sad or happy.
 <img width="958" alt="Vance Comparison 2019-2020" src="https://github.com/verocastillo/data-project-1/blob/main/data-exploration/sample_spotify_api_code.png">
 3. Delete faulty/repeated data
     Some tracks were not found, and some information was not available in certain countries. 
@@ -60,14 +62,15 @@ Spotify API for the tracks and music metrics was use and for COVID-19 informatio
     Using the dates in which the data was obtained, we merged the DataFrames and plotted valence.
 
 5. Obtain correlations between variables
-    Correlations between variables were obtained by using scatter plots and linear regression analysis.
+    Correlations between Covid severity and listerner music preferences as reflected in the Spotify Top 200 Charts were obtained by using scatter plots and linear regression                
+    analysis.
 
 
 **DATA TRANSFORMATION**
 
 From Spotify we obtained CSV files for the weekly top 200 charts for each country and the global one. From Our World in Data COVID statistics divided by date and country were used. Also, the Spotify API was used to obtain track information and audio features for each track. 
 
-From this data, key metric to study was Valence, defined from sounded studies as a measure which indicates whether  people associate happy or sad sounds. This is important because it is how Spotify describes the musical positiveness conveyed by a track. The number of COVID cases and deaths were also analysed in order to compare  how valence behaved over time.
+From this data, key metric to study was Valence, defined from sounded studies as a measure which indicates whether people associate happy or sad sounds. This is important because it is how Spotify describes the musical positiveness conveyed by a track. The number of COVID cases and deaths were also analysed in order to compare  how valence behaved over time.
 
 Import CSV files obtained from the data sources, and turned them into Pandas DataFrames. From the DataFrame with the Spotify data the Spotify API was used to obtain the track ID associated with each song, and then the audio features of the song, which included song valence. 
 
