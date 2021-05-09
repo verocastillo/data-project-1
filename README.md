@@ -4,10 +4,10 @@
 
 **REPOSITORY NAVIGATION**
 
-* *starter-codes* contains the initial test and base codes for our entire project.
-* *data-exploration* contains the individual data handling, CSV files, inputs and outputs.
-* *main-data-analysis* contains the integrated final codes.
-* *documents* contains the presentation and written report.
+* [*starter-codes*](https://github.com/verocastillo/data-project-1/tree/main/starter-codes) contains the initial base codes for our entire project, which tested Spotify's API and the plotting techniques.
+[*data-exploration*](https://github.com/verocastillo/data-project-1/tree/main/data-exploration) contains the individual data handling, CSV files, inputs and outputs. Each country or region explored has it's own subfolder.
+* [*main-data-analysis*](https://github.com/verocastillo/data-project-1/tree/main/main-data-analysis) contains the integrated final codes that created the analysis plots, which pulled data from the exploration data on each country and region.
+* [*documents*](https://github.com/verocastillo/data-project-1/tree/main/documents) contains the [presentation](https://github.com/verocastillo/data-project-1/blob/main/documents/COVID%20and%20Spotify%20Trends_%20Presentation.pdf) and [written report](https://github.com/verocastillo/data-project-1/blob/main/documents/COVID%20and%20Spotify%20Trends_%20Written%20Report.pdf).
 
 
 **OBJECTIVE**
@@ -20,7 +20,7 @@ Explore how COVID-19 affected music streaming user preferences to answer:
 
 **BUSINESS IMPACT**
 
-Spotify can use this data to improve their algorithms and offer more personalized suggestions to users in different regions, that could potentially provide a better experience to the user.
+Spotify can use this data to improve their algorithms and offer more personalized suggestions to users in different regions, that could potentially provide a better experience to the user, thereby retaining more premium users and increasing revenue.
 
 
 **DATA** 
@@ -30,25 +30,16 @@ Spotify API for the tracks and music metrics was use and for COVID-19 informatio
 
 **DEPENDENCIES**
 
-import matplotlib.pyplot as plt
-
-import pandas as pd
-
-import numpy as np
-
-import requests
-
-import json
-
-import re, glob
-
-import os, sys
-
-from scipy import stats
-
-import seaborn as sn
-
-import spotipy                          
+-import matplotlib.pyplot as plt
+-import pandas as pd
+-import numpy as np
+-import requests
+-import json
+-import re, glob
+-import os, sys
+-from scipy import stats
+-import seaborn as sn
+-import spotipy                          
        
                                                 
 **DATA EXPLORATION**
@@ -92,6 +83,7 @@ Relevant mean values and weighted averages to simplify the data to be grouped by
 
 
 **RESULTS**
+<img width="958" alt="Vance Comparison 2019-2020" src="https://github.com/verocastillo/data-project-1/blob/main/main-data-analysis/output_files/Valence.png">
 
 Valence preference varies between countries.
 Hispanic and Latin countries have higher mean valence.
@@ -100,10 +92,15 @@ México decreased in 2020.
 Spain increased in 2020.
 Globally, there was no significant change in mean valence.
 
+<img width="958" alt="Vance vs. New Cases per Million" src="https://github.com/verocastillo/data-project-1/blob/main/main-data-analysis/output_files/scatter_Valence_to_New%20Cases%20Per%20Million.png">
+
 Valence vs. Cases per Million
 Global tendency shows a strong positive correlation. 
 Germany and the US match the trend.
 México, Spain and India show from a moderate to a strong negative correlation.
+
+<img width="958" alt="Vance vs. New Cases per Million" src="https://raw.githubusercontent.com/verocastillo/data-project-1/main/main-data-analysis/output_files/scatter_Valence_to_New%20Deaths%20Per%20Million.png">
+
 Valence vs. Deaths per Million
 Global tendency shows a strong positive correlation. 
 Germany and the US match the trend.
@@ -112,8 +109,10 @@ México, Brazil, Italy and India show from a moderate to a strong negative corre
 
 **CONCLUSIONS**
 
-Spotify can use the data obtained to offer more personalized suggestions to users depending on the country, and optimize exclusive contracts with certain artists that match the ‘mood’ of each country. 
-The majority of the countries analyzed presented a correlation.
+The majority of the countries analyzed presented a correlation between Covid severity and changes in listening preferencies. 
+
+Therefore, Spotify can use the data obtained to offer more personalized suggestions to users depending on the country, and optimize exclusive contracts with certain artists that match the ‘mood’ of each country. 
+
 
 
 =======
