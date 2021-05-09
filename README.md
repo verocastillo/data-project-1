@@ -4,7 +4,7 @@
 
 **REPOSITORY NAVIGATION**
 
-* *starter-codes* [title](https://github.com/verocastillo/data-project-1/tree/main/starter-codes) contains the initial test and base codes for our entire project.
+* [*starter-codes*](https://github.com/verocastillo/data-project-1/tree/main/starter-codes) contains the initial test and base codes for our entire project.
 * *data-exploration* contains the individual data handling, CSV files, inputs and outputs.
 * *main-data-analysis* contains the integrated final codes.
 * *documents* contains the presentation and written report.
